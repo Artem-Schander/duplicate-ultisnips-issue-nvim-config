@@ -1,7 +1,7 @@
-# This repository is meant to reproduce an issue
+## This repository is meant to reproduce an issue
 [UltiSnips shows duplicated snippet suggestions when symlinking the nvim config](https://github.com/SirVer/ultisnips/issues/1341)
 
-## Steps to reproduce:
+### Steps to reproduce:
 
 1. clone this repo into `~/.duplicate-snippet-issue`
 2. create a symlink `ln -s $HOME/.duplicate-snippet-issue ~/.config/nvim`
